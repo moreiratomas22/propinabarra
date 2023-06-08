@@ -1,0 +1,48 @@
+#cuerpo{
+    background-color:darkgrey
+}
+
+h1 {
+  text-align: center;
+}
+
+#propina {
+  text-align: center;
+}
+#propina input {
+  text-align: center;
+}
+
+#barmans {
+  text-align: center;
+}
+
+#barmans input {
+  text-align: center;
+}
+
+#cajeros {
+  text-align: center;
+}
+
+#cajeros input {
+  text-align: center;
+}
+
+#boton button{
+    display: flex;
+    align-items: center;
+}
+
+#resultado {
+    text-align: center;
+}
+
+#boton{ 
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
