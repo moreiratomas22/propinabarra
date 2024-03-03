@@ -1,9 +1,19 @@
 #cuerpo{
     background-color:darkgrey
 }
+.Container{
+  border-radius: 2px;
+  border: solid black;
+  display: inline-block;
+  border-radius: 8px;
+}
+.alineacion{
+  text-align: center;
+}
 
 h1 {
   text-align: center;
+  margin: 2rem;
 }
 
 #propina {

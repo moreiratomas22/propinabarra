@@ -1,44 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/estilos.css" />
-    <title>Division Propi Barra CR</title>
-  </head>
 
-  <body id="cuerpo">
-    <h1>Division Propi Barra CR</h1>
-    <div id="propina">
-      <label>Cantidad de Propina: $</label>
-      <br>  
-      <input type="number" id="total-tip" />
-    </div>
-    <br />
-    <div id="barmans">
-      <label>Cantidad de Barmans:</label>
-      <br>
-      <input type="number" id="num-barmans" />
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/estilos.css" />
+  <title>Division Propi Barra CR</title>
+</head>
 
-    <br />
+<body id="cuerpo">
 
-    <div id="cajeros">
+  <div class="alineacion">
+
+    <div class="Container">
+
+      <h1>Division Propi Barra CR</h1>
+      <div id="propina">
+        <label>Cantidad de Propina: $</label>
+        <br>
+        <input type="number" id="total-tip" />
+      </div>
+      <br />
+      <div id="barmans">
+        <label>Cantidad de Barmans:</label>
+        <br>
+        <input type="number" id="num-barmans" />
+      </div>
+
+      <br />
+
+      <div id="cajeros">
         <label>Cantidad de Cajeros:</label>
         <br>
         <input type="number" id="num-cajeros" />
+      </div>
+
+      <br />
+      <div id="boton">
+        <button onclick="calcularPropina()">Calcular</button>
+      </div>
+
+
+      <br />
+      <p id="resultado"></p>
+
     </div>
 
-    <br />
-<div id="boton">
-    <button onclick="calcularPropina()">Calcular</button>
-</div>
-    
+  </div>
 
-    <br />
-    <p id="resultado"></p>
 
-    <script src="/js/funciones.js"></script>
-  </body>
+  <script src="/js/funciones.js"></script>
+</body>
+
 </html>
