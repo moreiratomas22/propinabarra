@@ -11,6 +11,11 @@
   text-align: center;
 }
 
+input{
+  border-radius: 0.3rem;
+  margin-top: 5px;
+}
+
 h1 {
   text-align: center;
   margin: 2rem;
@@ -42,6 +47,8 @@ h1 {
 #boton button{
     display: flex;
     align-items: center;
+    margin: 0 auto;
+    border-radius: 1.5rem;
 }
 
 #resultado {
@@ -53,6 +60,4 @@ h1 {
     padding: 0.5rem 1rem;
     width: 200px;
     margin: 0 auto;
-    align-items: center;
-    justify-content: center;
 }
